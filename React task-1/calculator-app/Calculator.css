@@ -1,0 +1,28 @@
+.result-item {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #dee2e6;
+  }
+  
+  .result-item:last-child {
+    border-bottom: none;
+  }
+  
+  .operation {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .result-value {
+    font-size: 18px;
+    color: #28a745;
+  }
+  
+  .input-summary {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 20px;
+  }
